@@ -10,6 +10,7 @@ import { LeaderboardComponent } from './leaderboard/leaderboard.component';
 import { TeamComponent } from './team/team.component';
 import { VintagePanelComponent } from './vintage-panel/vintage-panel.component';
 import { CentreColumnComponent } from './centre-column/centre-column.component';
+import { UnderConstructionComponent } from './under-construction/under-construction.component';
 
 @NgModule({
   declarations: [
@@ -19,7 +20,8 @@ import { CentreColumnComponent } from './centre-column/centre-column.component';
     LeaderboardComponent,
     TeamComponent,
     VintagePanelComponent,
-    CentreColumnComponent
+    CentreColumnComponent,
+    UnderConstructionComponent
   ],
   imports: [
     BrowserModule,

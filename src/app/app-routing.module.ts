@@ -6,7 +6,7 @@ import { RulesComponent }      from './rules/rules.component';
 import { LeaderboardComponent }      from './leaderboard/leaderboard.component';
 
 const routes: Routes = [
-  { path: '', component: HomeComponent },
+  { path: '', redirectTo: '/home', pathMatch: 'full' },
   { path: 'home', component: HomeComponent },
   { path: 'teams/:name', component: TeamComponent },
   { path: 'rules', component: RulesComponent },
