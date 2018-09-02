@@ -1,0 +1,22 @@
+{
+  "name" : "youths",
+  "members" : [
+    "Luke Stevens",
+    "Mike Forrest"
+  ],
+  "gif1" : "torch.gif",
+  "gif2" : "surfing_computer.gif",
+  "tagline" : "We were in single digits in 2005!",
+  "machineImages" : [],
+  "scores" : [],
+  "parts" : [
+    {
+      "name" : "Motherboard",
+      "cost" : 12.98
+    },
+    {
+      "name" : "DDR2 RAM 2GB",
+      "cost" : 0.20
+    }
+  ]
+}

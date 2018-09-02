@@ -1,0 +1,58 @@
+<div *ngIf="team" class="center">
+  <h1 class="name">Team {{team.name}}</h1>
+  <h3 class="tagline">{{team.tagline}}</h3>
+  <hr>
+  <h2 class="title">Members</h2>
+
+  <centre-column size="small" image="{{team.gif1}}">
+    <ul class="list-group">
+      <li class="list-group-item vintagebox" *ngFor="let member of team.members">{{member}}</li>
+    </ul>
+  </centre-column>
+
+  <hr>
+  <h2 class="title">Gallery</h2>
+  <div *ngIf="team.machineImages.length > 0;else noImages">
+    <div class="row">
+      <div *ngFor="let img of team.machineImages" class="col-lg-4 col-sm-6 col-xs-12">
+        <figure class="frame vintagebox">
+          <img src="assets/teams/{{team.name}}/{{img.img}}">
+          <figcaption>{{img.caption}}</figcaption>
+        </figure>
+      </div>
+    </div>
+  </div>
+
+  <ng-template #noImages>
+    <h4><i>This team have yet to upload any images of their machine. I wonder why...</i></h4>
+  </ng-template>
+
+  <hr>
+  <h2 class="title">Parts</h2>
+  <centre-column size="small" image="{{team.gif2}}" *ngIf="team.parts.length > 0;else noParts">
+    <table class="table vintagebox">
+      <thead>
+        <tr>
+          <th>Part name</th>
+          <th>Cost</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr *ngFor="let part of team.parts">
+          <td>{{part.name}}</td>
+          <td>{{part.cost | currency:'GBP'}}</td>
+        </tr>
+        <tr><td></td><td></td></tr>
+        <tr>
+          <td>Total Cost</td>
+          <td>{{getPartTotal() | currency:'GBP'}}</td>
+        </tr>
+      </tbody>
+    </table>
+  </centre-column>
+
+  <ng-template #noParts>
+    <h4><i>This team <b>STILL</b> haven't purchased any parts!</i></h4>
+  </ng-template>
+
+</div>

@@ -1,0 +1,11 @@
+<div class="row">
+  <div class="{{outerClass}}">
+    <img *ngIf="image" src="assets/images/{{image}}">
+  </div>
+  <div class="{{innerClass}}">
+    <ng-content></ng-content>
+  </div>
+  <div class="{{outerClass}}">
+    <img *ngIf="image" src="assets/images/{{image}}">
+  </div>
+</div>

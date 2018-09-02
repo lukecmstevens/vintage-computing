@@ -1,0 +1,13 @@
+li.list-group-item{
+  color: #fff;
+  font-size: 2em;
+}
+
+ul.list-group{
+  border: 1px solid #333;
+}
+
+h1.title{
+  font-size:4em;
+  margin:20px;
+}
