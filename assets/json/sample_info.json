@@ -1,0 +1,29 @@
+{
+  "name" : "name",
+  "members" : [
+    "",
+    ""
+  ],
+  "gif1" : "",
+  "gif2" : "",
+  "tagline" : "",
+  "machineImages" : [
+    {
+      "img" : "",
+      "caption" : ""
+    }
+  ],
+  "scores" : [
+    {
+      "score" : 0,
+      "date" : "2018-08-31",
+      "img" : ""
+    }
+  ],
+  "parts" : [
+    {
+      "name" : "",
+      "cost" : 0.00
+    }
+  ]
+}
