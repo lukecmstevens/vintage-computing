@@ -17,7 +17,7 @@ install:
   - npm install -g @angular/cli
 
 script:
-  - ng build --prod --base-href https://lukecmstevens.co.uk/vintage-computing
+  - ng build --prod --base-href http://lukecmstevens.co.uk/vintage-computing
 deploy:
   provider: pages
   skip_cleanup: true
