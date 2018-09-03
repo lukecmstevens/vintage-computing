@@ -19,4 +19,4 @@ install:
 
 script:
   - ng build --prod --base-href http://lukecmstevens.co.uk/vintage-computing/
-  - npx ngh --dir=dist/vintagecomputing
+  - npx ngh --dir=dist/vintagecomputing --no-silent
