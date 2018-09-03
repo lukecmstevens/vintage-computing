@@ -17,7 +17,7 @@ install:
 
 script:
   - yarn lint
-  - yarn build --base-href https://lukecmstevens.co.uk/vintagecomputing
+  - yarn build --base-href https://lukecmstevens.co.uk/vintage-computing
 deploy:
   provider: pages
   skip_cleanup: true
