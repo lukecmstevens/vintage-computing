@@ -1,5 +1,5 @@
 <div *ngIf="team" class="center">
-  <h1 class="name">Team {{team.name}}</h1>
+  <h1 class="name">Team {{team.name | titlecase}}</h1>
   <h3 class="tagline">{{team.tagline}}</h3>
   <hr>
   <h2 class="title">Members</h2>
