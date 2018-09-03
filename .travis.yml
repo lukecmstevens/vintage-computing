@@ -17,7 +17,6 @@ install:
   - npm install -g @angular/cli
 
 script:
-  - ng lint
   - ng build --prod --base-href https://lukecmstevens.co.uk/vintage-computing
 deploy:
   provider: pages
