@@ -15,13 +15,8 @@ cache:
 install:
   - npm update
   - npm install -g @angular/cli
+  - npm install -g angular-cli-ghpages
 
 script:
   - ng build --prod --base-href http://lukecmstevens.co.uk/vintage-computing/
-deploy:
-  provider: pages
-  skip_cleanup: true
-  github_token: $GITHUB_TOKEN
-  local_dir: dist/vintagecomputing
-  on:
-branch: master
+  - npx ngh --dir=dist/vintage-computing
