@@ -17,20 +17,20 @@ export class CentreColumnComponent implements OnInit {
 
   ngOnInit() {
     if(this.size === "full"){
-      this.innerClass = "col-lg-12";
+      this.innerClass = "col-xs-12";
       this.outerClass = "";
     }
     else if(this.size === "large"){
-      this.innerClass = "col-lg-8";
-      this.outerClass = "col-lg-2";
+      this.innerClass = "col-xs-8";
+      this.outerClass = "col-xs-2";
     }
     else if(this.size === "small"){
-      this.innerClass = "col-lg-4";
-      this.outerClass = "col-lg-4";
+      this.innerClass = "col-xs-4";
+      this.outerClass = "col-xs-4";
     }
     else{
-      this.innerClass = "col-lg-6";
-      this.outerClass = "col-lg-3";
+      this.innerClass = "col-xs-6";
+      this.outerClass = "col-xs-3";
     }
   }
 
