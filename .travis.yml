@@ -18,5 +18,5 @@ install:
   - npm install -g angular-cli-ghpages
 
 script:
-  - ng build --prod --base-href http://lukecmstevens.co.uk/vintagecomputing/
-  - npx ngh --dir=dist/vintage-computing
+  - ng build --prod --base-href http://lukecmstevens.co.uk/vintage-computing/
+  - npx ngh --dir=dist/vintagecomputing
