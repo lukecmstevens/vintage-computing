@@ -19,4 +19,4 @@ install:
 
 script:
   - ng build --prod --base-href http://lukecmstevens.co.uk/vintage-computing/
-  - npx ngh --dir=dist/vintagecomputing --no-silent
+  - npx ngh --dir=dist/vintagecomputing --repo=https://GH_TOKEN@github.com/lukecmstevens/vintage-computing.git --name="Luke Stevens" --email=lcm.stevens96@gmail.com
