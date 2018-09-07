@@ -23,9 +23,13 @@
               "src/assets"
             ],
             "styles": [
+              "src/assets/css/clippy.css",
+              "src/assets/css/win98.css",
               "src/styles.css"
             ],
-            "scripts": []
+            "scripts": [
+              "src/assets/js/clippy.min.js"
+            ]
           },
           "configurations": {
             "production": {
