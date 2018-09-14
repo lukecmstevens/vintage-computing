@@ -15,6 +15,7 @@ export class MachineImage{
 }
 
 export class Score{
+  team : string;
   score : number;
   date : string;
   img : string;
