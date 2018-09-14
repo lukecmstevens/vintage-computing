@@ -11,6 +11,7 @@ import { TeamComponent } from './team/team.component';
 import { VintagePanelComponent } from './vintage-panel/vintage-panel.component';
 import { CentreColumnComponent } from './centre-column/centre-column.component';
 import { UnderConstructionComponent } from './under-construction/under-construction.component';
+import { ScorePipePipe } from './score-pipe.pipe';
 
 @NgModule({
   declarations: [
@@ -21,7 +22,8 @@ import { UnderConstructionComponent } from './under-construction/under-construct
     TeamComponent,
     VintagePanelComponent,
     CentreColumnComponent,
-    UnderConstructionComponent
+    UnderConstructionComponent,
+    ScorePipePipe
   ],
   imports: [
     BrowserModule,
