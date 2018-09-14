@@ -1,7 +1,7 @@
 <div class="center">
   <h1>Leaderboard</h1>
     
-  <div *ngIf="scores">
+  <div *ngIf="scores && scores.length > 0">
     <div *ngFor="let score of scores | scorePipe:5" class="col-xs-12">
       <div class="col-xs-4">
         <h4>{{score.team | titlecase}}</h4>
@@ -15,7 +15,7 @@
     </div>
   </div>
 
-  <div *ngIf="!scores">
+  <div *ngIf="scores && scores.length == 0">
     <h1>Nobody has uploaded any scores yet!</h1>
     <under-construction></under-construction>
   </div>
