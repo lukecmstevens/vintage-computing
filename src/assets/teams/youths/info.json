@@ -17,6 +17,22 @@
     {
       "name" : "DDR2 RAM 2GB",
       "cost" : 0.20
+    },
+	  {
+      "name" : "Power Supply",
+      "cost" : 0.00
+    },
+    {
+      "name" : "Intel Pentium D 820 2.8GHz",
+      "cost" : 0.99
+    },
+    {
+      "name" : "Winfast NVIDIA 7800GTX",
+      "cost" : 13.50
+    },
+    {
+      "name" : "Akasa Nero 3 High Performance CPU cooler",
+      "cost" : 9.99
     }
   ]
 }
