@@ -7,7 +7,12 @@
   "gif1" : "torch.gif",
   "gif2" : "surfing_computer.gif",
   "tagline" : "We were in single digits in 2005!",
-  "machineImages" : [],
+  "machineImages" : [
+    {
+      "img" : "cable-ties.jpg",
+      "caption" : "When all else fails, just use cable ties"
+    }
+  ],
   "scores" : [],
   "parts" : [
     {
