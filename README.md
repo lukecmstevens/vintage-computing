@@ -1,5 +1,6 @@
 [![Build Status][travis ci img]][travis ci] &emsp;
 [![Angular CLI Version][angular cli img]][angular cli] &emsp;
+[![Site status][live site img]][live site] &emsp;
 ![Teams][teams img]
 
 # Vintage Computing Competition 2018
@@ -132,3 +133,6 @@ To get more help on the Angular CLI use `ng help` or go check out the [Angular C
 [angular cli]:https://cli.angular.io/
 
 [teams img]:https://img.shields.io/badge/dynamic/json.svg?label=teams&url=http%3A%2F%2Flukecmstevens.co.uk%2Fvintage-computing%2Fassets%2Fjson%2Fteams.json&query=%24.length&colorB=green
+
+[live site]:https://lukecmstevens.co.uk/vintage-computing
+[live site img]:https://img.shields.io/badge/Status-Live-brightgreen.svg

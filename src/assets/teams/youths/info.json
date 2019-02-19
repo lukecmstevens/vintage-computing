@@ -11,6 +11,10 @@
     {
       "img" : "cable-ties.jpg",
       "caption" : "When all else fails, just use cable ties"
+    },
+    {
+      "img" : "installing-windows.jpg",
+      "caption" : "Installing Windows XP professional"
     }
   ],
   "scores" : [],
