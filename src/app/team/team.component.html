@@ -14,7 +14,7 @@
   <h2 class="title">Gallery</h2>
   <div *ngIf="team.machineImages.length > 0;else noImages">
     <div class="row">
-      <div *ngFor="let img of team.machineImages" class="col-lg-4 col-sm-6 col-xs-12">
+      <div *ngFor="let img of team.machineImages" class="col-sm-6 col-xs-12">
         <figure class="frame vintagebox">
           <img src="assets/teams/{{team.name}}/{{img.img}}" height="200">
           <figcaption>{{img.caption}}</figcaption>
