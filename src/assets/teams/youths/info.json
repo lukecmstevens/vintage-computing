@@ -17,7 +17,13 @@
       "caption" : "Installing Windows XP professional"
     }
   ],
-  "scores" : [],
+  "scores" : [
+    {
+      "score" : 4209,
+      "date" : "2019-02-28",
+      "img" : "first-run.jpg"
+    }
+  ],
   "parts" : [
     {
       "name" : "Motherboard",
@@ -36,12 +42,24 @@
       "cost" : 0.99
     },
     {
+      "name" : "Seagate 3.5\" 2TB SSHD",
+      "cost" : 0.00
+    },
+    {
       "name" : "Winfast NVIDIA 7800GTX",
       "cost" : 13.50
     },
     {
       "name" : "Akasa Nero 3 High Performance CPU cooler",
       "cost" : 9.99
+    },
+    {
+      "name" : "PCI-E 16x Extension ribbon",
+      "cost" : 3.48
+    },
+    {
+      "name" : "SATA to Molex power adapter",
+      "cost" : 2.88
     }
   ]
 }
